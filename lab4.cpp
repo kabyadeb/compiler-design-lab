@@ -23,8 +23,10 @@ void solve()
                 else
                 {
                     cout << "INvalid input\n";
+                    break;
                 }
             }
+            cout << "Integer Variable\n";
         }
         else if (input[0] >= '0' && input[0] <= '9')
         {
